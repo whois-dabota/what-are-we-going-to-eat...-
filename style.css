@@ -1,0 +1,100 @@
+
+body {
+    background: #760d46;
+    color: #FFCDF2;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 500px;
+    max-width: 98%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #ffcdf2;
+    margin: 0;
+    color: #760d46;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+ol{
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+}
+
+.bloomer{
+    width: 50px;
+    max-width: 98%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding-top: 0;
+}
+
+#food_options{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#food-list {
+    list-style: none;
+    padding: 0;
+}
+
+#food_options {
+    margin: 8px;
+}
+
+#randomize-btn {
+    background-color: white;
+    color: pink;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#randomize-btn:hover {
+    background-color: darksalmon;
+    color: white;
+}
+
+#result {
+    color: white;
+    margin-top: 25px;
+}
